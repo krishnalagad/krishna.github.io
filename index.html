@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/fevicon.png">
+</head>
+<body>
+    <!-- The button for scrolling up to the home. Hidden initially -->
+    <!-- <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div> -->
+
+    <!-- The navbar-->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#" class="ml12">My Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Krishna Lagad</div>
+                <div class="text-3">And I'm a <span class="typing"></span>.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/myImg1.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Get to Know me in shortly</div>
+                    <p>I am Krishna, a second year computer Engineering student, who loves to raise along with the 
+                        technology. At All India Shree Shivaji Memorial Society's Institute of Information Technology, 
+                        I am pursuing my graduation though, I'm highly passionated to self learning things. I am a self 
+                        tought programmer who learns new things from trial and error. I like web surfing a lot to 
+                        acquire knowledge and to get acquainted with new technology. I am upcoming engineer with optimistic 
+                        attitude and is always ready to find efficient & impeccable solutions on real world challenges
+                        in life itinerary. I be of the goal that making people aware about how new technology makes 
+                        our life more easier to survive. These days I love Studying and working in Java.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section Start -->
+    <div id="skills"><h2 class="my-skills"><span>My Skills set</span></h2></div>
+    <p class="para">
+        I solve problems in creative way. It helps me more to learn the importance of applying classical 
+        strategies to modern-day projects. At first year of my diploma, I started learning C programming 
+        and thats awake more wishful thoughts in me about learning more and more programming languages. Also, I 
+        am known with the concepts like Stack, Queue, Linkedlist, Hash Table in Data Structure and memory & 
+        resource management. I find myself more drowned in Java Programming and I like to learn and work 
+        in its frameworks like Spring & hibernate. I am currently fond of R programming language.
+    </p>
+    <div class="container">
+       
+        <div class="skills-block-left">
+            <div class="skills-text">
+                <p>
+                    I solve problems in creative way. It helps me more to learn the importance of applying classical 
+                    strategies to modern-day projects. At first year of my diploma, I started learning C programming 
+                    and thats awake more wishful thoughts in me about learning more and more programming languages. Also, I 
+                    am known with the concepts like Stack, Queue, Linkedlist, Hash Table in Data Structure and memory & 
+                    resource management. I find myself more drowned in Java Programming and I like to learn and work 
+                    in its frameworks like Spring & hibernate. I am currently fond of R programming language.
+                </p>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="skills-block">
+                
+                <div class="bar-1">
+                    <div class="title">Java</div>
+                        <div class="bar" data-width="85%">
+                            <div class="bar-inner">
+                                
+                            </div>
+                        <div class="bar-percent">85%</div>
+                    </div>
+                </div>
+                <div class="bar-1">
+                    <div class="title" style="color: #084c61;">Spring-Hibernate</div>
+                        <div class="bar" data-width="65%">
+                            <div class="bar-inner" style="background: #084c61;">
+                                
+                            </div>
+                        <div class="bar-percent">65%</div>
+                    </div>
+                </div>
+                <div class="bar-1">
+                    <div class="title" style="color: #525252;">R Programming</div>
+                        <div class="bar" data-width="55%">
+                            <div class="bar-inner" style="background: #525252;">
+                                
+                            </div>
+                        <div class="bar-percent">55%</div>
+                    </div>
+                </div>
+                <div class="bar-1">
+                    <div class="title" style="color: #5a68a5">Data Structure</div>
+                        <div class="bar" data-width="70%">
+                            <div class="bar-inner" style="background: #5a68a5;">
+                                
+                            </div>
+                        <div class="bar-percent">70%</div>
+                    </div>
+                </div>
+                <div class="bar-1">
+                    <div class="title" style="color: #5a615aa5">HTML/CSS/JavaScript</div>
+                        <div class="bar" data-width="15%">
+                            <div class="bar-inner" style="background: #5a615aa5;">
+                                
+                            </div>
+                        <div class="bar-percent">15%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="middle">
+                    <center><p>If you have any project idea to discuss, get closer to me by touching below icons.</p></center>
+                    <br>
+                    <!--Social media icons-->                        
+                        <div class="icons">
+                            <a href="https://www.facebook.com/krishnalagad2/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/krishnalagad__"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/krishna_lagad.insta/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/krishna-lagad-7387b7171"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Krishna-lagad"><i class="fab fa-github"></i></a>
+                            <a href="mailto:krishnalagad2@gmail.com?subject=Erase this and type your subject&body=Erase this and type your body"><i class="fas fa-at"></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Attached Social bar -->
+     <div class="a-social-b">
+        <a href="https://www.facebook.com/krishnalagad2/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/krishnalagad__"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/krishna_lagad.insta/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/krishna-lagad-7387b7171"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Krishna-lagad"><i class="fab fa-github"></i></a>
+        <a href="mailto:krishnalagad2@gmail.com?subject=Erase this and type your subject&body=Erase this and type your body"><i class="fas fa-at"></i></a>
+    </div>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Made from Scratch <a href="#home" > by Krishna</a> | Copyright <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
