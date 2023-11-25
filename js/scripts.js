@@ -5,7 +5,7 @@ $(document).ready(function(){
     strings: [
       "Student",
       "Learner",
-      "Engineer",
+      "An Engineer",
       "Programmer",
     ],
     typeSpeed: 100,

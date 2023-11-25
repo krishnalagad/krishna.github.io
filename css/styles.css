@@ -48,6 +48,42 @@ p {
   vertical-align: baseline;
 }
 
+/* Navbar Links hover effect css */
+
+.nav-ul {
+    list-style: none;
+/*     padding: 20px; */
+    margin: 0px;
+}
+
+.nav-ul li {
+    display: inline-block;
+}
+
+.nav-ul li::after {   
+    content: '';
+    display: block; 
+    border-bottom: 2px solid #fefefe;    
+/*     margin-top: 5px; */
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+.nav-ul li:hover::after { 
+    transform: scaleX(1);
+}
+
+.nav-ul li a {
+    padding: 0px 25px;
+    color: #fefefe;
+/*     font-size: 1.1rem; */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/* end */
+
 /* css for side social */
 
 .sticky-container {
